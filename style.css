@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: block;
+    unicode-bidi: isolate;
+}
+.header___logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+.header__menu {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.header__container {
+    width: 100%;
+    background-color: #00a6ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__menu li a{
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration:none;
+    cursor: pointer;
+}
+
+.box__cursor {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: stretch;
+    border-radius: 20px;
+    background-color: #282a2e;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.none {
+    cursor: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text {
+    cursor: text;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.help {
+    cursor: help;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.alias {
+    cursor: alias;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.move {
+    cursor: move;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.not-allowed {
+    cursor: not-allowed\;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+.btn__cursor {
+    width: 200px;
+    height: 100px;
+    background-color: #ffd829;
+    margin: 1%;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #00a124;
+    text-transform: uppercase;
+    padding: 1%;
+}
+
+
+
+
+
+
+
+
+
+
